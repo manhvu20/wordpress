@@ -1,0 +1,30 @@
+name: Send Email on Commit
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  sendEmail:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Send email notification
+        run: node sendEmail.js
+        env:
+          SMTP_HOST: smtp-relay.brevo.com
+          SMTP_PORT: 587
+          SMTP_USER: h5studiogl@gmail.com
+          SMTP_PASS: ${{ secrets.EMAIL_PASSWORD }}

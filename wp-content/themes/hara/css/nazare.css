@@ -1,0 +1,48 @@
+/* greek-ext */
+@font-face {
+	font-family: 'Nazare';
+	font-weight: 300;
+	font-stretch: 100%;
+	font-display: swap;
+	src: url(../fonts/nazare/nazare-light.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Nazare';
+	font-weight: 400;
+	font-stretch: 100%;
+	font-display: swap;
+	src: url(../fonts/nazare/nazare-regular.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Nazare';
+	font-weight: 500;
+	font-stretch: 100%;
+	font-display: swap;
+	src: url(../fonts/nazare/nazare-medium.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Nazare';
+	font-weight: 600;
+	font-stretch: 100%;
+	font-display: swap;
+	src: url(../fonts/nazare/nazare-semibold.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Nazare';
+	font-weight: 800;
+	font-stretch: 100%;
+	font-display: swap;
+	src: url(../fonts/nazare/nazare-extrabold.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Nazare';
+	font-weight: 900;
+	font-stretch: 100%;
+	font-display: swap;
+	src: url(../fonts/nazare/nazare-heavy.woff2) format('woff2');
+}
